@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information Form</title>
+</head>
+<body>
+
+<h2>Personal Information Form</h2>
+
+<form>
+
+<!-- Full Name -->
+<label for="name">Full Name:</label>
+<input type="text" id="name" required><br><br>
+
+<!-- Father Name -->
+<label for="fname">Father Name:</label>
+<input type="text" id="fname" required><br><br>
+
+<!-- Email -->
+<label for="email">Email:</label>
+<input type="email" id="email" required><br><br>
+
+<!-- Password -->
+<label for="password">Password:</label>
+<input type="password" id="password" required><br><br>
+
+<!-- Phone -->
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" required><br><br>
+
+<!-- CNIC -->
+<label for="cnic">CNIC:</label>
+<input type="text" id="cnic" placeholder="12345-1234567-1" maxlength="15" required><br><br>
+
+<!-- DOB -->
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" required><br><br>
+
+<!-- Gender -->
+<label>Gender:</label><br>
+<input type="radio" name="gender" id="male" required>
+<label for="male">Male</label><br>
+
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label><br><br>
+
+<!-- Skills -->
+<label>Skills:</label><br>
+<input type="checkbox" id="html">
+<label for="html">HTML</label><br>
+
+<input type="checkbox" id="css">
+<label for="css">CSS</label><br>
+
+<input type="checkbox" id="js">
+<label for="js">JavaScript</label><br>
+
+<input type="checkbox" id="react">
+<label for="react">React</label><br><br>
+
+<!-- Education -->
+<label for="education">Education:</label>
+<select id="education" required>
+    <option value="">Select</option>
+    <option>Matric</option>
+    <option>Intermediate</option>
+    <option>Bachelor</option>
+    <option>Master</option>
+</select><br><br>
+
+<!-- City -->
+<label for="city">City:</label>
+<select id="city" required>
+    <option value="">Select</option>
+    <option>Karachi</option>
+    <option>Lahore</option>
+    <option>Islamabad</option>
+    <option>Peshawar</option>
+    <option>Quetta</option>
+</select><br><br>
+
+<!-- Upload -->
+<label for="pic">Upload Picture:</label>
+<input type="file" id="pic" required><br><br>
+
+<label for="cv">Upload CV:</label>
+<input type="file" id="cv" required><br><br>
+
+<!-- Address -->
+<label for="address">Address:</label><br>
+<textarea id="address" required></textarea><br><br>
+
+<!-- Agreement -->
+<input type="checkbox" id="agree" required>
+<label for="agree">I agree to the terms and conditions</label><br><br>
+
+<!-- Buttons -->
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
